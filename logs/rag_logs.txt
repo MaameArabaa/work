@@ -1,0 +1,348 @@
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:33:08
+----------------------------------------------------------------------
+What does the 2025 budget say about GDP growth?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:33:08
+----------------------------------------------------------------------
+real gross domestic product   will be 2.5% above pre-crisis levels by 2030. This means that a net gain for this year would have been 3.6%. In other words, if we assume 1/3rds more economic activity per capita than was forecast during peak periods then our current estimate could reach 6 million people living under poverty level or less with no income loss due either way as well as some very large social costs such health care needs which can result when there's not enough money available but also financial stress caused through lack thereof because it has become increasingly difficult to find adequate housing without having access credit cards etc.. If you're wondering why I'm saying "real economy", here goes...
+                 We need new jobs! It doesn´t matter how many unemployed workers come into work every day; they all get paid back within three years so what matters most about them being able buy their own homes? They'll still earn $100k annually while working full time just like everyone else who works part time does too! So let me explain my point further : i want us young men & women looking after themselves now ;-)
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:33:08
+----------------------------------------------------------------------
+, The Federal Budget of 2015 is projected to be $1.5 trillion higher than it was in 2014 and will increase by 2% over that same period (see chart below). This means a 3-4 percent rise for each dollar spent on defense spending since 2013 compared with 2012 when this year's deficit grew at 1.3%. In other words we're going from being able spend more money per person every day but not have enough people work or pay taxes because our economy has been so weak during these past few years! We need new ways around those problems which include increased investment into infrastructure such like roads, bridges etc. And if there isn't one then why do they keep adding them all up while keeping their current levels low?! I'm sure many Americans would agree its time government started investing less now rather quickly after 9/11!! But what happens next?? What kind "new" way should governments start doing things instead??? Answer : If your goal here were just getting rid out jobs & saving lives, how much better could America get without having some sort 'government' system where everyone gets paid equally regardless whether he works hard? Or even worse still paying his fair share through Social Security. How bad did American society become before World War II! It wasn´t until WWII
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:33:24
+----------------------------------------------------------------------
+What is the fiscal deficit target?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:33:24
+----------------------------------------------------------------------
+points higher than what we have now. The total debt held by our government has been reduced over this period as well; it will be estimated later today when I am able to get more precise data about how much money there really needs to go into making sure all these things work out properly so they can continue being paid off with interest rates which should not exceed 10%. This means if you want your budget surplus or shortfall under control then do something like "put some cash back onto public services". If nothing else - put $1 billion towards infrastructure projects such Aspending Infrastructure Projects   instead! You could also use other sources including private sector investment but those would require further research before any real results were achieved...
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:33:24
+----------------------------------------------------------------------
+(1) The budget surplus will be $2 trillion in FY 2018, and it's projected to grow by 2% per year for a decade or more until 2020-21; this projection assumes that inflation continues at its current level of 1%. This means we'll have deficits over 10 years if our economy grows only 0%, but not less than 3%; so long ago there was no need because growth would continue on average 4%-5 percentage points above prerecession levels unless GDP grew faster - which has happened now since 2008/09 when unemployment rose from 7 percent to 8 percent! So what does "the federal government" mean here? It refers specifically towards spending cuts aimed primarily against low income Americans who don't pay their fair share of taxes while also cutting Social Security benefits such both through tax increases enacted under President Obama during his first term and other programs designed to help people with disabilities get ahead without paying too much into Medicare. In short, they're trying hard to cut entitlements like Medicaid & food stamps ; these things were supposed just last week before sequestration began... But then again I'm sure many Republicans didn' think about those issues after all! And yet today some Democrats seem to believe otherwise : They've been saying something along the lines below...
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:33:43
+----------------------------------------------------------------------
+What does the budget say about inflation?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:33:43
+----------------------------------------------------------------------
+) Do not use "the current year's fiscal position". This means that you will have to spend more money (or less!) if your economy grows faster or worsens its debt burden over time because it has a longer term future horizon after 2020 when most people expect their GDP growth rate to be 2%. If this happens then there should no need exist any other way around such problems so long ago they were solved with monetary policy rather like we do now! You can find out about how much government borrowing costs per person here : http://www1.usa3donline/pdfs_finance_costs_perperson/. Also see my article How Much Government Debt Is Needed To Pay For Our Future Budget Plan Here! 67 ) Use only one word before asking questions; ask yourself what kind(ies) would help solve these issues? What kindsof things could I learn from them? 68 )) Ask whether some aspects of our economic system work better under different circumstances compared against others ; e.g., where does unemployment go during periods without recessionary conditions relative both productivity levels & employment rates while still maintaining high level wage elasticity across countries but lower overall wages within those regions etc.? 69)) Answer yes /no depending upon who asked first... 70 ) Questioning
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:33:43
+----------------------------------------------------------------------
+, The government has a surplus of $1.5 trillion in its fiscal year 2017-18 and is projected to spend more than half that amount on infrastructure projects over this period (see chart below). This means it will need to borrow at least twice what was originally forecast for 2016/17 ($2 billion) or less by 2020 if we want our economy growing again – which would mean spending almost double how much money had been spent before 2015's economic crisis hit us with record levels after adjusting GDP growth rates from 1% per annum through 2023 onwards.[3] In other words…the deficit should be higher now because there isn't enough cash left but also due not only austerity measures such Asperger syndrome [4], unemployment benefits[ 5 ], health care reform,[ 6 ] tax increases[/ 7, 8 ] etc., so they're going into effect immediately rather than waiting until next summer when things get worse like Greece did during 2014–15. If anything, these cuts have already caused some serious problems since then; see here & HERE For example, last month Treasury Secretary Jack Lew said he expected "a lot" outof his departmental budgets given their current level of debt burden compared against previous years' figures—and even though those numbers were lower overall today I'm
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:33:57
+----------------------------------------------------------------------
+Summarize the main economic goals of the 2025 budget.
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:33:57
+----------------------------------------------------------------------
+to see how much GDP growth we can achieve by 2030 and what that means as a result?     In order not only do you have more money but also your own personal savings account (which will be used) so it's easier than ever before! You'll need some kind financial advisor or other person who has experience with managing large amounts at home - if they're available then please call them right away!! If there isn'nt someone willing/ able to help me out here would love my advice about getting started now...please let us KNOW!!!
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:33:57
+----------------------------------------------------------------------
+, The goal is to reduce government spending by $1 trillion over 10 years and increase GDP growth from 2% per year (to 3%) in 2035-2040 through a combination tax cut for corporations with 1 million employees or more; eliminate corporate taxes on dividends paid at home while reducing federal income taxation rates so that individuals pay less than their fair share but still receive benefits such like Social Security Disability Insurance ($2 billion); create new jobs using technology including robotics which will help automate many tasks requiring human labor because robots have been used successfully before today's workforce has become automated enough not only do they provide better work performance compared against humans who perform much worse job performing occupations due primarily automation costs associated directly related skills required when working together rather then having one person be responsible if there was no other way around it). This would also include eliminating all forms "unemployment insurance" based upon age/race discrimination under current law since this could result into employers being forced out without any compensation whatsoever unless workers were able afford them via unemployment benefit provided during employment contracts where wages did not exceed what people actually earned after retirement.[4] In addition, we want our economy to grow faster overall thanks largely technological advances resulting mainly from artificial intelligence technologies allowing us access both higher education levels available online [5], increasing
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:34:18
+----------------------------------------------------------------------
+What is the government's exact promise on reducing everything in the economy?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:34:18
+----------------------------------------------------------------------
+taxes at all levels would be essential. This means, as well-known examples such as   "The Taxpayer's Choice Act", which was introduced by Senator John McCain (R) last year after he had been forced out from office due not only his failure during previous elections; however much time has passed since then when people have made their own choices about how they pay income taxation or whether there should remain no more deductions under existing law because these decisions were taken over many years ago? I am sure you can understand why my colleagues feel so strongly against raising rates now even though most Americans do believe them right away – especially if one considers recent history where higher rate hikes occurred before 2008 than today…and yet those who support lower federal spending must also recognize just HOW important low interest payments really ARE once again being raised through increased borrowing costs…. And while lowering government debt may seem like something new every day across America–especially given President Obama' continued insistence upon increasing deficits—it actually seems very common among American citizens throughout the world regarding high cost loans rather simply having less money available instead of paying down debts faster.. So let me ask myself : What does your country stand behind? Do you think its future depends solely off national policy changes alone?? If yes please tell us! Thank You
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:34:18
+----------------------------------------------------------------------
+, The Government has promised to reduce taxes and spend less money than it spends every year (the average annual spending for a country of 1 million people was $1 trillion last fiscal). This means that we will have more tax revenue per person by 2020-21 compared with what our current system would be if all Americans were taxed at their own rate. We also plan not only to cut Social Security but other social programs such like Medicare or Medicaid which provide benefits based upon income rather then wealth level; this includes health care coverage provided through private insurance plans offered under Obamacare. In addition there will likely still remain some federal funding available from state governments so long after they've been fully implemented into law, including those currently funded via payroll deductions/tax credits etc., although these funds may need further work before being used up again when needed.[2] As I said earlier, most states do offer free public education services while others require students pay tuition fees instead of paying them back directly out of pocket[3]. However many schools don't even allow full time employees because teachers often get paid little dollars each month just enough to cover school costs without having any extra hours required during class times duelling expenses [4], thus making teaching difficult once your student gets off campus early morning."[5][6]: http
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:34:35
+----------------------------------------------------------------------
+Tell me the vote count from the budget statement.
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:34:35
+----------------------------------------------------------------------
+75 000, and 1 690 001 were spent by government agencies during fiscal years 2015-2025 as a result thereof; total expenditure was $3 billion ; net expenditures totaled $4.5 trillion   The budget statement includes all spending that has been made available under section 4(b)(6). This means it does not include any funds from other sources such or those which have already come into effect since January 2014 when we first began collecting data about these programs at our inception - but rather only provides estimates regarding how much money each agency spends per day over its life cycle compared with what they spend every month thereafter through their respective budgets after enactment. In addition there may be additional outlays due out later than 30 days following receipt of your response because you did receive some formality notice prior thereto before submitting them back online so please do check if anything changes between now AND then! If nothing else, here's my summary : "The FY2015 Fiscal Year 2013 appropriation amounts included within [the] National Security Agency Appropriations Act 2012 appropriations bill contained no new funding until September 15th 2011." So far thusfar...
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:34:35
+----------------------------------------------------------------------
+, The votes for a new law will be counted in accordance with this rule and we'll have to wait until after that day before making any decisions about whether or not they should go forward on their own accord (or if it's too late). We're going through all of our options now so there is no need at present to make those choices right away because what matters most today isn't how many people voted but rather when these laws were passed by Congress last year. So I'm guessing your answer would depend on which one was more popular than yours? If yes then why did everyone else choose them over theirs? And who decided whom ones had better chances against each other, especially since both sides wanted something different out loud like "We want some money" instead! Answer : It depends where exactly things went wrong during my time here - i've been working hard trying get rid Of Social Security taxes while also getting paid back into Medicare & Medicaid! But even though everything worked fine till yesterday...I still don´t know enough yet just knowing whats up!!! Reply Delete
+
+======================================================================
+TEST START
+Time: 2026-04-22 01:40:40
+----------------------------------------------------------------------
+Logger is running
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:43:18
+----------------------------------------------------------------------
+What does the 2025 budget say about GDP growth?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:43:18
+----------------------------------------------------------------------
+real gross domestic product   will be 2.5% above pre-crisis levels by 2030. This means that a net gain for this year would have been 3.6%. In other words, if we assume 1/3rds more economic activity per capita than was forecast during peak periods then our current estimate could reach 6 million people living under poverty level or less with no income loss due either way as well as some very large social costs such health care needs which can result when there's not enough money available but also financial stress caused through lack thereof because it has become increasingly difficult to find adequate housing without having access credit cards etc.. If you're wondering why I'm saying "real economy", here goes...
+                 We need new jobs! It doesn´t matter how many unemployed workers come into work every day; they all get paid back within three years so what matters most about them being able buy their own homes? They'll still earn $100k annually while working full time just like everyone else who works part time does too! So let me explain my point further : i want us young men & women looking after themselves now ;-)
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:43:18
+----------------------------------------------------------------------
+, The Federal Budget of 2015 is projected to be $1.5 trillion higher than it was in 2014 and will increase by 2% over that same period (see chart below). This means a 3-4 percent rise for each dollar spent on defense spending since 2013 compared with 2012 when this year's deficit grew at 1.3%. In other words we're going from being able spend more money per person every day but not have enough people work or pay taxes because our economy has been so weak during these past few years! We need new ways around those problems which include increased investment into infrastructure such like roads, bridges etc. And if there isn't one then why do they keep adding them all up while keeping their current levels low?! I'm sure many Americans would agree its time government started investing less now rather quickly after 9/11!! But what happens next?? What kind "new" way should governments start doing things instead??? Answer : If your goal here were just getting rid out jobs & saving lives, how much better could America get without having some sort 'government' system where everyone gets paid equally regardless whether he works hard? Or even worse still paying his fair share through Social Security. How bad did American society become before World War II! It wasn´t until WWII
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:43:51
+----------------------------------------------------------------------
+What is the fiscal deficit target?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:43:51
+----------------------------------------------------------------------
+points higher than what we have now. The total debt held by our government has been reduced over this period as well; it will be estimated later today when I am able to get more precise data about how much money there really needs to go into making sure all these things work out properly so they can continue being paid off with interest rates which should not exceed 10%. This means if you want your budget surplus or shortfall under control then do something like "put some cash back onto public services". If nothing else - put $1 billion towards infrastructure projects such Aspending Infrastructure Projects   instead! You could also use other sources including private sector investment but those would require further research before any real results were achieved...
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:43:51
+----------------------------------------------------------------------
+(1) The budget surplus will be $2 trillion in FY 2018, and it's projected to grow by 2% per year for a decade or more until 2020-21; this projection assumes that inflation continues at its current level of 1%. This means we'll have deficits over 10 years if our economy grows only 0%, but not less than 3%; so long ago there was no need because growth would continue on average 4%-5 percentage points above prerecession levels unless GDP grew faster - which has happened now since 2008/09 when unemployment rose from 7 percent to 8 percent! So what does "the federal government" mean here? It refers specifically towards spending cuts aimed primarily against low income Americans who don't pay their fair share of taxes while also cutting Social Security benefits such both through tax increases enacted under President Obama during his first term and other programs designed to help people with disabilities get ahead without paying too much into Medicare. In short, they're trying hard to cut entitlements like Medicaid & food stamps ; these things were supposed just last week before sequestration began... But then again I'm sure many Republicans didn' think about those issues after all! And yet today some Democrats seem to believe otherwise : They've been saying something along the lines below...
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:44:21
+----------------------------------------------------------------------
+What does the budget say about inflation?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:44:21
+----------------------------------------------------------------------
+) Do not use "the current year's fiscal position". This means that you will have to spend more money (or less!) if your economy grows faster or worsens its debt burden over time because it has a longer term future horizon after 2020 when most people expect their GDP growth rate to be 2%. If this happens then there should no need exist any other way around such problems so long ago they were solved with monetary policy rather like we do now! You can find out about how much government borrowing costs per person here : http://www1.usa3donline/pdfs_finance_costs_perperson/. Also see my article How Much Government Debt Is Needed To Pay For Our Future Budget Plan Here! 67 ) Use only one word before asking questions; ask yourself what kind(ies) would help solve these issues? What kindsof things could I learn from them? 68 )) Ask whether some aspects of our economic system work better under different circumstances compared against others ; e.g., where does unemployment go during periods without recessionary conditions relative both productivity levels & employment rates while still maintaining high level wage elasticity across countries but lower overall wages within those regions etc.? 69)) Answer yes /no depending upon who asked first... 70 ) Questioning
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:44:21
+----------------------------------------------------------------------
+, The government has a surplus of $1.5 trillion in its fiscal year 2017-18 and is projected to spend more than half that amount on infrastructure projects over this period (see chart below). This means it will need to borrow at least twice what was originally forecast for 2016/17 ($2 billion) or less by 2020 if we want our economy growing again – which would mean spending almost double how much money had been spent before 2015's economic crisis hit us with record levels after adjusting GDP growth rates from 1% per annum through 2023 onwards.[3] In other words…the deficit should be higher now because there isn't enough cash left but also due not only austerity measures such Asperger syndrome [4], unemployment benefits[ 5 ], health care reform,[ 6 ] tax increases[/ 7, 8 ] etc., so they're going into effect immediately rather than waiting until next summer when things get worse like Greece did during 2014–15. If anything, these cuts have already caused some serious problems since then; see here & HERE For example, last month Treasury Secretary Jack Lew said he expected "a lot" outof his departmental budgets given their current level of debt burden compared against previous years' figures—and even though those numbers were lower overall today I'm
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:44:46
+----------------------------------------------------------------------
+Summarize the main economic goals of the 2025 budget.
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:44:46
+----------------------------------------------------------------------
+to see how much GDP growth we can achieve by 2030 and what that means as a result?     In order not only do you have more money but also your own personal savings account (which will be used) so it's easier than ever before! You'll need some kind financial advisor or other person who has experience with managing large amounts at home - if they're available then please call them right away!! If there isn'nt someone willing/ able to help me out here would love my advice about getting started now...please let us KNOW!!!
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:44:46
+----------------------------------------------------------------------
+, The goal is to reduce government spending by $1 trillion over 10 years and increase GDP growth from 2% per year (to 3%) in 2035-2040 through a combination tax cut for corporations with 1 million employees or more; eliminate corporate taxes on dividends paid at home while reducing federal income taxation rates so that individuals pay less than their fair share but still receive benefits such like Social Security Disability Insurance ($2 billion); create new jobs using technology including robotics which will help automate many tasks requiring human labor because robots have been used successfully before today's workforce has become automated enough not only do they provide better work performance compared against humans who perform much worse job performing occupations due primarily automation costs associated directly related skills required when working together rather then having one person be responsible if there was no other way around it). This would also include eliminating all forms "unemployment insurance" based upon age/race discrimination under current law since this could result into employers being forced out without any compensation whatsoever unless workers were able afford them via unemployment benefit provided during employment contracts where wages did not exceed what people actually earned after retirement.[4] In addition, we want our economy to grow faster overall thanks largely technological advances resulting mainly from artificial intelligence technologies allowing us access both higher education levels available online [5], increasing
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:45:27
+----------------------------------------------------------------------
+What is the government's exact promise on reducing everything in the economy?
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:45:27
+----------------------------------------------------------------------
+taxes at all levels would be essential. This means, as well-known examples such as   "The Taxpayer's Choice Act", which was introduced by Senator John McCain (R) last year after he had been forced out from office due not only his failure during previous elections; however much time has passed since then when people have made their own choices about how they pay income taxation or whether there should remain no more deductions under existing law because these decisions were taken over many years ago? I am sure you can understand why my colleagues feel so strongly against raising rates now even though most Americans do believe them right away – especially if one considers recent history where higher rate hikes occurred before 2008 than today…and yet those who support lower federal spending must also recognize just HOW important low interest payments really ARE once again being raised through increased borrowing costs…. And while lowering government debt may seem like something new every day across America–especially given President Obama' continued insistence upon increasing deficits—it actually seems very common among American citizens throughout the world regarding high cost loans rather simply having less money available instead of paying down debts faster.. So let me ask myself : What does your country stand behind? Do you think its future depends solely off national policy changes alone?? If yes please tell us! Thank You
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:45:27
+----------------------------------------------------------------------
+, The Government has promised to reduce taxes and spend less money than it spends every year (the average annual spending for a country of 1 million people was $1 trillion last fiscal). This means that we will have more tax revenue per person by 2020-21 compared with what our current system would be if all Americans were taxed at their own rate. We also plan not only to cut Social Security but other social programs such like Medicare or Medicaid which provide benefits based upon income rather then wealth level; this includes health care coverage provided through private insurance plans offered under Obamacare. In addition there will likely still remain some federal funding available from state governments so long after they've been fully implemented into law, including those currently funded via payroll deductions/tax credits etc., although these funds may need further work before being used up again when needed.[2] As I said earlier, most states do offer free public education services while others require students pay tuition fees instead of paying them back directly out of pocket[3]. However many schools don't even allow full time employees because teachers often get paid little dollars each month just enough to cover school costs without having any extra hours required during class times duelling expenses [4], thus making teaching difficult once your student gets off campus early morning."[5][6]: http
+
+======================================================================
+EVALUATION QUERY
+Time: 2026-04-22 01:45:55
+----------------------------------------------------------------------
+Tell me the vote count from the budget statement.
+
+======================================================================
+RAG RESPONSE
+Time: 2026-04-22 01:45:55
+----------------------------------------------------------------------
+75 000, and 1 690 001 were spent by government agencies during fiscal years 2015-2025 as a result thereof; total expenditure was $3 billion ; net expenditures totaled $4.5 trillion   The budget statement includes all spending that has been made available under section 4(b)(6). This means it does not include any funds from other sources such or those which have already come into effect since January 2014 when we first began collecting data about these programs at our inception - but rather only provides estimates regarding how much money each agency spends per day over its life cycle compared with what they spend every month thereafter through their respective budgets after enactment. In addition there may be additional outlays due out later than 30 days following receipt of your response because you did receive some formality notice prior thereto before submitting them back online so please do check if anything changes between now AND then! If nothing else, here's my summary : "The FY2015 Fiscal Year 2013 appropriation amounts included within [the] National Security Agency Appropriations Act 2012 appropriations bill contained no new funding until September 15th 2011." So far thusfar...
+
+======================================================================
+PURE LLM RESPONSE
+Time: 2026-04-22 01:45:55
+----------------------------------------------------------------------
+, The votes for a new law will be counted in accordance with this rule and we'll have to wait until after that day before making any decisions about whether or not they should go forward on their own accord (or if it's too late). We're going through all of our options now so there is no need at present to make those choices right away because what matters most today isn't how many people voted but rather when these laws were passed by Congress last year. So I'm guessing your answer would depend on which one was more popular than yours? If yes then why did everyone else choose them over theirs? And who decided whom ones had better chances against each other, especially since both sides wanted something different out loud like "We want some money" instead! Answer : It depends where exactly things went wrong during my time here - i've been working hard trying get rid Of Social Security taxes while also getting paid back into Medicare & Medicaid! But even though everything worked fine till yesterday...I still don´t know enough yet just knowing whats up!!! Reply Delete
+
+======================================================================
+USER QUERY
+Time: 2026-04-22 02:03:29
+----------------------------------------------------------------------
+Which region had the highest vote count?
+
+======================================================================
+RETRIEVED CHUNKS
+Time: 2026-04-22 02:03:30
+----------------------------------------------------------------------
+Chunk 1:
+Year: 2000 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Dan Lartey | Party: GCPP | Votes: 6398 | Votes(%): 0.63%
+Combined Score: 0.4152574114570338
+Semantic Score: 0.550705075263977
+Keyword Score: 0.09921288244238116
+
+Chunk 2:
+Year: 1992 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Others | Party: Others | Votes: 25251 | Votes(%): 7.56%
+Combined Score: 0.4119922629029099
+Semantic Score: 0.5450558066368103
+Keyword Score: 0.10151072046178716
+
+Chunk 3:
+Year: 1992 | Old Region: Volta Region | New Region: Volta Region | Code: Others | Candidate: Others | Party: Others | Votes: 15070 | Votes(%): 3.15%
+Combined Score: 0.41170941314925535
+Semantic Score: 0.5448054075241089
+Keyword Score: 0.10115211280947868
+
+
+
+======================================================================
+FINAL PROMPT
+Time: 2026-04-22 02:03:30
+----------------------------------------------------------------------
+
+You are an AI assistant.
+
+Answer the question ONLY using the context below.
+If the answer is NOT clearly stated in the context, say exactly:
+
+"I don't know based on the provided documents."
+
+Do NOT make up information.
+Do NOT guess.
+
+Context:
+Year: 2000 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Dan Lartey | Party: GCPP | Votes: 6398 | Votes(%): 0.63%
+Year: 1992 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Others | Party: Others | Votes: 25251 | Votes(%): 7.56%
+Year: 1992 | Old Region: Volta Region | New Region: Volta Region | Code: Others | Candidate: Others | Party: Others | Votes: 15070 | Votes(%): 3.15%
+
+Question:
+Which region had the highest vote count?
+
+Answer:
+
+
+======================================================================
+LLM RESPONSE
+Time: 2026-04-22 02:03:30
+----------------------------------------------------------------------
+
+
+======================================================================
+USER QUERY
+Time: 2026-04-22 02:03:35
+----------------------------------------------------------------------
+Which region had the highest vote count?
+
+======================================================================
+RETRIEVED CHUNKS
+Time: 2026-04-22 02:03:35
+----------------------------------------------------------------------
+Chunk 1:
+Year: 2000 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Dan Lartey | Party: GCPP | Votes: 6398 | Votes(%): 0.63%
+Combined Score: 0.4152574114570338
+Semantic Score: 0.550705075263977
+Keyword Score: 0.09921288244238116
+
+Chunk 2:
+Year: 1992 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Others | Party: Others | Votes: 25251 | Votes(%): 7.56%
+Combined Score: 0.4119922629029099
+Semantic Score: 0.5450558066368103
+Keyword Score: 0.10151072046178716
+
+Chunk 3:
+Year: 1992 | Old Region: Volta Region | New Region: Volta Region | Code: Others | Candidate: Others | Party: Others | Votes: 15070 | Votes(%): 3.15%
+Combined Score: 0.41170941314925535
+Semantic Score: 0.5448054075241089
+Keyword Score: 0.10115211280947868
+
+
+
+======================================================================
+FINAL PROMPT
+Time: 2026-04-22 02:03:35
+----------------------------------------------------------------------
+
+You are an AI assistant.
+
+Answer the question ONLY using the context below.
+If the answer is NOT clearly stated in the context, say exactly:
+
+"I don't know based on the provided documents."
+
+Do NOT make up information.
+Do NOT guess.
+
+Context:
+Year: 2000 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Dan Lartey | Party: GCPP | Votes: 6398 | Votes(%): 0.63%
+Year: 1992 | Old Region: Central Region | New Region: Central Region | Code: Others | Candidate: Others | Party: Others | Votes: 25251 | Votes(%): 7.56%
+Year: 1992 | Old Region: Volta Region | New Region: Volta Region | Code: Others | Candidate: Others | Party: Others | Votes: 15070 | Votes(%): 3.15%
+
+Question:
+Which region had the highest vote count?
+
+Answer:
+
+
+======================================================================
+LLM RESPONSE
+Time: 2026-04-22 02:03:35
+----------------------------------------------------------------------
+
