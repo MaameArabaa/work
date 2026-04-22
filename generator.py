@@ -1,49 +1,57 @@
-from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import torch
+from transformers import AutoTokenizer, AutoModelForCausalLM
 
-MODEL_NAME = "google/flan-t5-base"
+MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
+model = AutoModelForCausalLM.from_pretrained(
+    MODEL_NAME,
+    torch_dtype=torch.float32
+)
 
 
 def clean_text(text):
-    """
-    Clean messy PDF text for better readability
-    """
     text = text.replace("\n", " ")
     text = text.replace("  ", " ")
     text = text.replace("com pleted", "completed")
     return text.strip()
 
 
-def extract_answer(query, context_chunks):
-    """
-    Fallback: extract a simple answer directly from context
-    """
+def extract_answer(context_chunks, query=None):
     if not context_chunks:
-        return "I don't know."
+        return "No relevant information found."
 
     context = clean_text(context_chunks[0])
 
-    if query and "paris mission" in query.lower():
-        return "The document mentions the Residency of the Paris Mission as part of properties that were completed or renovated."
+    if query:
+        first_word = query.lower().split()[0]
+        if first_word not in context.lower():
+            return "This question is outside the scope of the provided documents."
 
     sentences = context.split(".")
     for s in sentences:
-        if len(s.strip()) > 20:
-            return s.strip() + "."
+        s = s.strip()
+        if len(s) > 40:
+            return s + "."
 
-    return context[:150] + "..."
+    return context[:200] + "..."
 
 
 def generate_response(prompt, context_chunks=None, query=None):
-    """
-    Generate a one-line grounded answer using FLAN-T5
-    with fallback handling.
-    """
     try:
+        messages = [
+            {"role": "system", "content": "You answer using the provided context only."},
+            {"role": "user", "content": prompt},
+        ]
+
+        prompt_text = tokenizer.apply_chat_template(
+            messages,
+            tokenize=False,
+            add_generation_prompt=True
+        )
+
         inputs = tokenizer(
-            prompt,
+            prompt_text,
             return_tensors="pt",
             truncation=True,
             max_length=1024
@@ -52,23 +60,21 @@ def generate_response(prompt, context_chunks=None, query=None):
         outputs = model.generate(
             **inputs,
             max_new_tokens=80,
-            do_sample=False
+            do_sample=False,
+            pad_token_id=tokenizer.eos_token_id
         )
 
-        response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
+        generated_tokens = outputs[0][inputs["input_ids"].shape[-1]:]
+        response = tokenizer.decode(generated_tokens, skip_special_tokens=True).strip()
         response = response.replace("\n", " ").strip()
 
-        bad_responses = ["", "answer:", "unknown", "i do not know"]
+        if "context:" in response.lower() or "question:" in response.lower():
+            return extract_answer(context_chunks, query)
 
-        if response.lower() in bad_responses or len(response) < 5:
-            if context_chunks:
-                return context_chunks[0][:150].replace("\n", " ") + "..."
-            else:
-                return "I don't know."
+        if not response or len(response) < 15 or "i don't know" in response.lower():
+            return extract_answer(context_chunks, query)
 
         return response
 
     except Exception:
-        if context_chunks:
-            return context_chunks[0][:150].replace("\n", " ") + "..."
-        return "I don't know."
+        return extract_answer(context_chunks, query)
