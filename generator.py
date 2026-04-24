@@ -25,12 +25,20 @@ def is_query_relevant_to_context(query, context_chunks):
         return False
 
     context = get_all_context(context_chunks).lower()
-    stopwords = {"what", "who", "does", "about", "is", "the", "in", "of", "to", "was", "were", "with", "from", "this", "that", "and", "are"}
+
+    stopwords = {
+        "what", "who", "does", "about", "is", "the", "in", "of", "to",
+        "was", "were", "with", "from", "this", "that", "and", "are"
+    }
 
     words = re.findall(r"\b[a-zA-Z]+\b", query.lower())
-    important_words = [w for w in words if len(w) > 3 and w not in stopwords]
+    important_words = [
+        word for word in words
+        if len(word) > 3 and word not in stopwords
+    ]
 
-    matches = sum(1 for w in important_words if w in context)
+    matches = sum(1 for word in important_words if word in context)
+
     return matches >= 1
 
 
@@ -66,7 +74,12 @@ def generate_response(prompt, context_chunks=None, query=None):
         if query and not is_query_relevant_to_context(query, context_chunks):
             return "This question is outside the scope of the provided documents."
 
-        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=1024)
+        inputs = tokenizer(
+            prompt,
+            return_tensors="pt",
+            truncation=True,
+            max_length=1024
+        )
 
         outputs = model.generate(
             **inputs,
