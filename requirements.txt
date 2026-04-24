@@ -1,8 +1,8 @@
-streamlit==1.36.0
-transformers==4.41.2
-torch==2.3.1
-pandas==2.2.2
-PyPDF2==3.0.1
-sentence-transformers==2.7.0
-scikit-learn==1.5.1
-numpy==1.26.4
+streamlit
+transformers
+torch
+pandas
+PyPDF2
+sentence-transformers
+scikit-learn
+numpy
