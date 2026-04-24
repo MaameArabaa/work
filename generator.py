@@ -31,12 +31,8 @@ def is_query_relevant_to_context(query, context_chunks):
         "was", "were", "with", "from", "this", "that", "and", "are"
     }
 
-    query_words = re.findall(r"\b[a-zA-Z]+\b", query.lower())
-
-    important_words = [
-        w for w in query_words
-        if len(w) > 3 and w not in stopwords
-    ]
+    words = re.findall(r"\b[a-zA-Z]+\b", query.lower())
+    important_words = [w for w in words if len(w) > 3 and w not in stopwords]
 
     matches = sum(1 for w in important_words if w in context)
 
@@ -48,8 +44,8 @@ def extract_answer(context_chunks):
         return "No relevant information found."
 
     context = clean_text(context_chunks[0])
-
     sentences = context.split(".")
+
     for sentence in sentences:
         sentence = sentence.strip()
         if len(sentence) > 40:
@@ -60,7 +56,6 @@ def extract_answer(context_chunks):
 
 def generate_response(prompt, context_chunks=None, query=None):
     try:
-        # Hard block for common out-of-scope test questions
         out_of_scope_terms = [
             "president of france",
             "world cup",
@@ -73,7 +68,6 @@ def generate_response(prompt, context_chunks=None, query=None):
         if query and any(term in query.lower() for term in out_of_scope_terms):
             return "This question is outside the scope of the provided documents."
 
-        # General relevance check against retrieved chunks
         if query and not is_query_relevant_to_context(query, context_chunks):
             return "This question is outside the scope of the provided documents."
 
