@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import re
 
-MODEL_NAME = "google/flan-t5-base"
+MODEL_NAME = "google/flan-t5-small"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
 model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
@@ -25,17 +25,12 @@ def is_query_relevant_to_context(query, context_chunks):
         return False
 
     context = get_all_context(context_chunks).lower()
-
-    stopwords = {
-        "what", "who", "does", "about", "is", "the", "in", "of", "to",
-        "was", "were", "with", "from", "this", "that", "and", "are"
-    }
+    stopwords = {"what", "who", "does", "about", "is", "the", "in", "of", "to", "was", "were", "with", "from", "this", "that", "and", "are"}
 
     words = re.findall(r"\b[a-zA-Z]+\b", query.lower())
     important_words = [w for w in words if len(w) > 3 and w not in stopwords]
 
     matches = sum(1 for w in important_words if w in context)
-
     return matches >= 1
 
 
@@ -71,12 +66,7 @@ def generate_response(prompt, context_chunks=None, query=None):
         if query and not is_query_relevant_to_context(query, context_chunks):
             return "This question is outside the scope of the provided documents."
 
-        inputs = tokenizer(
-            prompt,
-            return_tensors="pt",
-            truncation=True,
-            max_length=1024
-        )
+        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=1024)
 
         outputs = model.generate(
             **inputs,
