@@ -3,3 +3,6 @@ transformers
 torch
 pandas
 PyPDF2
+sentence-transformers
+scikit-learn
+numpy
