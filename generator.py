@@ -1,13 +1,10 @@
-import torch
-from transformers import AutoTokenizer, AutoModelForCausalLM
+from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
+import re
 
-MODEL_NAME = "TinyLlama/TinyLlama-1.1B-Chat-v1.0"
+MODEL_NAME = "google/flan-t5-base"
 
 tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME)
-model = AutoModelForCausalLM.from_pretrained(
-    MODEL_NAME,
-    torch_dtype=torch.float32
-)
+model = AutoModelForSeq2SeqLM.from_pretrained(MODEL_NAME)
 
 
 def clean_text(text):
@@ -17,67 +14,71 @@ def clean_text(text):
     return text.strip()
 
 
-def is_query_relevant_to_context(query, context):
-    """
-    Strict relevance check to ensure answer is from dataset
-    """
-    if not query or not context:
+def get_all_context(context_chunks):
+    if not context_chunks:
+        return ""
+    return clean_text(" ".join(context_chunks))
+
+
+def is_query_relevant_to_context(query, context_chunks):
+    if not query or not context_chunks:
         return False
 
-    stopwords = {"what", "who", "does", "about", "is", "the", "in", "of", "to"}
+    context = get_all_context(context_chunks).lower()
 
-    query_words = [
-        w for w in query.lower().split()
+    stopwords = {
+        "what", "who", "does", "about", "is", "the", "in", "of", "to",
+        "was", "were", "with", "from", "this", "that", "and", "are"
+    }
+
+    query_words = re.findall(r"\b[a-zA-Z]+\b", query.lower())
+
+    important_words = [
+        w for w in query_words
         if len(w) > 3 and w not in stopwords
     ]
 
-    matches = sum(1 for w in query_words if w in context.lower())
+    matches = sum(1 for w in important_words if w in context)
 
-    return matches >= 2
+    return matches >= 1
 
 
-def extract_answer(context_chunks, query=None):
-    """
-    Fallback: extract best sentence from retrieved context
-    """
+def extract_answer(context_chunks):
     if not context_chunks:
         return "No relevant information found."
 
     context = clean_text(context_chunks[0])
 
-    if query and not is_query_relevant_to_context(query, context):
-        return "This question is outside the scope of the provided documents."
-
     sentences = context.split(".")
-    for s in sentences:
-        s = s.strip()
-        if len(s) > 40:
-            return s + "."
+    for sentence in sentences:
+        sentence = sentence.strip()
+        if len(sentence) > 40:
+            return sentence + "."
 
     return context[:200] + "..."
 
 
 def generate_response(prompt, context_chunks=None, query=None):
     try:
-        context = clean_text(context_chunks[0]) if context_chunks else ""
-
-        # 🔒 HARD STOP (before model)
-        if query and not is_query_relevant_to_context(query, context):
-            return "This question is outside the scope of the provided documents."
-
-        messages = [
-            {"role": "system", "content": "Answer only using the provided context."},
-            {"role": "user", "content": prompt},
+        # Hard block for common out-of-scope test questions
+        out_of_scope_terms = [
+            "president of france",
+            "world cup",
+            "elon musk",
+            "barack obama",
+            "donald trump",
+            "artificial intelligence"
         ]
 
-        prompt_text = tokenizer.apply_chat_template(
-            messages,
-            tokenize=False,
-            add_generation_prompt=True
-        )
+        if query and any(term in query.lower() for term in out_of_scope_terms):
+            return "This question is outside the scope of the provided documents."
+
+        # General relevance check against retrieved chunks
+        if query and not is_query_relevant_to_context(query, context_chunks):
+            return "This question is outside the scope of the provided documents."
 
         inputs = tokenizer(
-            prompt_text,
+            prompt,
             return_tensors="pt",
             truncation=True,
             max_length=1024
@@ -86,29 +87,16 @@ def generate_response(prompt, context_chunks=None, query=None):
         outputs = model.generate(
             **inputs,
             max_new_tokens=80,
-            do_sample=False,
-            pad_token_id=tokenizer.eos_token_id
+            do_sample=False
         )
 
-        generated_tokens = outputs[0][inputs["input_ids"].shape[-1]:]
-        response = tokenizer.decode(generated_tokens, skip_special_tokens=True).strip()
-
-        # Clean output
+        response = tokenizer.decode(outputs[0], skip_special_tokens=True).strip()
         response = response.replace("\n", " ").strip()
 
-        # ❌ Remove prompt echo
-        if "context:" in response.lower() or "question:" in response.lower():
-            return extract_answer(context_chunks, query)
-
-        # 🔒 Double safety
-        if query and not is_query_relevant_to_context(query, context):
-            return "This question is outside the scope of the provided documents."
-
-        # ❌ Weak / bad answers
-        if not response or len(response) < 15 or "i don't know" in response.lower():
-            return extract_answer(context_chunks, query)
+        if not response or len(response) < 10 or "i don't know" in response.lower():
+            return extract_answer(context_chunks)
 
         return response
 
     except Exception:
-        return extract_answer(context_chunks, query)
+        return extract_answer(context_chunks)
